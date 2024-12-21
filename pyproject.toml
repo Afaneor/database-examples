@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "databases-example"
+version = "0.1.0"
+description = ""
+authors = ["npavlin <np@letsnova.ru>"]
+readme = "README.md"
+packages = [{include = "databases_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
